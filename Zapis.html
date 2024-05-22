@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Онлайн-запись</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><a href="glavn.html">
+        <img class="N" src="logo.jpg">
+      </div>
+         <div class="menu"><a href="uslugi.html" style="color: white; text-decoration: none;">Услуги</a></div>
+         <div class="about"><a href="ONAS.html" style="color: white; text-decoration: none;">О нас</a></div>
+         <div class="contact"><a href="contact.html" style="color: white; text-decoration: none;">Контакты</a></div>
+       <div class="otziv"><a href="fg.html" style="color: white; text-decoration: none;">Отзывы</a></div>
+         <div class="phone">+7(900)478-21-31</div>
+         <img class="phone1" src="Phone.jpg" />
+        </div> 
+    <div class="container">
+        <div class="heading">Онлайн-запись<br>в салон красоты</div>
+        <form class="form" id="appointmentForm">
+            <div class="form-control">
+                <label for="name" class="label">Имя:</label>
+                <input type="text" id="name" name="name" required class="input">
+            </div>
+            <div class="form-control">
+                <label for="email" class="label">Email:</label>
+                <input type="email" id="email" name="email" required class="input">
+            </div>
+            <div class="form-control">
+                <label for="service" class="label">Услуга:</label>
+                <select id="service" name="service" required class="input">
+                    <option value="haircut">Стрижки</option>
+                    <option value="manicure">Маникюр</option>
+                    <option value="facial">Уход за бровями и ресницами</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label for="date" class="label">Дата:</label>
+                <input type="date" id="date" name="date" required class="input">
+            </div>
+            <div class="form-control">
+                <label for="time" class="label">Время:</label>
+                <input type="time" id="time" name="time" required class="input">
+            </div>
+            <div class="center">
+                <input type="submit" value="Записаться" class="button" id="submitButton">
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="footer">
+          <div class="logo2"><a href="glavn.html">
+            <img class="N1" src="logo.jpg">
+          </div>
+          <div id="privacyPolicy"><u>Политика конфиденциальности</u></div>
+          <div id="year">2023-</div>
+          <div id="aboutUs"><a href="ONAS.html" style="color: white; text-decoration: none;">О нас</a></div>
+          <div id="uslugi"><a href="uslugi.html" style="color: white; text-decoration: none;">Наши услуги</a></div> 
+          <div id="makiaj"><a href="uslugi.html" style="color: #9b9a9a; text-decoration: none;">Перманентный макияж бровей</a></div>
+          <div id="manikur"><a href="uslugi.html" style="color: #9b9a9a; text-decoration: none;">Парикмахерские услуги Маникюр</a></div>
+          <div id="contactUs"><a href="contact.html" style="color: white; text-decoration: none;">Контакты</a></div>
+          <div id="workingHours" style="text-align: center;">
+            <b>График работы</b> Понедельник-Воскресенье: 9:00 - 21:00
+          </div>
+          <div id="discount">Получи скидку -20%<br>на первое посещение</div>
+          <div class="buttonText" id="btnText1"><a href="Zapis.html" target="_blank" style="color: rgb(255, 255, 255); text-decoration: none;">Запись</a></div>
+      </div>
+    </div>
+    </footer>
+    <script src="Zapis.js"></script>
+</body>
+</html>

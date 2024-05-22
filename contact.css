@@ -1,0 +1,828 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap");
+
+html{
+  font-size:100%
+}
+
+body {
+  font-family: Inter;
+  margin: 0;
+  background-color: #FAFAFA;
+  padding: 0;
+}
+
+.container {
+  overflow: hidden;
+  width: 100%;
+  height: 957px;
+  max-width: 160rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 30px;
+  position: relative;
+  background: #1D1D1D;
+}
+
+.header > * {
+  flex:  1 100%;
+}
+
+body {
+  font-family: acumin-pro, system-ui, sans-serif;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-size: 14px;
+  background-color: #f4f4f4;
+  align-items: start;
+  min-height: 100vh;
+}
+
+
+.footer > * {
+  flex:  1 100%;
+}
+
+
+.logo {
+  position: relative;
+  text-align: left;
+}
+
+.N {
+  width: 18%;
+  height: 5rem;
+  left: 3%;
+  top: -111%;
+  position: absolute;
+}
+
+.menu, .about, .contact, .phone, .otziv {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 1.0vw; 
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.menu {
+  left: 59%; 
+  top: 45%; 
+}
+
+.about {
+  left: 66%; 
+  top: 45%; 
+}
+
+.contact {
+  left: 71%; 
+  top: 45%; 
+}
+
+.otziv {
+  left: 78%; 
+  top: 45%; 
+}
+
+.phone {
+  left: 85%;
+  top: 45%;
+  background-color: #000000;
+  color: #ffffff; 
+}
+
+img.phone1 {
+  width: 1%; 
+  left: 83%; 
+  top: 45%; 
+  position: absolute;
+}
+
+.map-responsive{
+  overflow:hidden;
+    padding-bottom:76.25%;
+    position:relative;
+    height: 264px;
+}
+.map-responsive iframe{
+  width: 46%;
+  height: 69%;
+  left: 47%;
+  top: 7%;
+  position:absolute;
+}
+
+.footer{
+  width: 100%;
+  height: 120px;
+  background: #000000;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.logo2 {
+  position: relative;
+  text-align: -webkit-auto;
+}
+
+.N1 {
+  width: 11%;
+  height: 6rem;
+  left: 1%;
+  top: -20%;
+  position: relative;
+}
+
+.buttonText {
+  top: 61%;
+  left: 87%;
+  position: absolute;
+  text-align: end;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-family: Mystery Quest;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+div#privacyPolicy {
+  left: 4%;
+  top: 80px;
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  font-family: JejuMyeongjo;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+div#workingHours{
+  left: 61%;
+  top: 33px;
+  width: 15%;
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+
+div#aboutUs {
+  left: 35%;
+  top: 11px;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+div#uslugi {
+  left: 35%;
+  top: 38px;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+div#makiaj {
+  left: 35%;
+  top: 60px;
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+div#manikur {
+  left: 35%;
+  top: 74px;
+  position: absolute;
+  color: #9b9a9a;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+div#discount {
+  left: 82%;
+  top: 18px;
+  text-align: center;
+  position: absolute;
+  color: white;
+  font-size: 1.2rem;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+div#contactUs {
+  left: 35%;
+  top: 95px;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+div#year {
+  left: 4%;
+  top: 96px;
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+
+.background {
+  width: 38%;
+  height: 56%;
+  left: 17%;
+  top: 14%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.64);
+}
+
+div#contactTitle {
+  width: 60%;
+  height: 13%;
+  left: 10%;
+  top: 10%;
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  font-family: Alice;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+div#address {
+  width: 77%;
+  height: 8%;
+  left: 10%;
+  top: 34%;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-family: Alice;
+  font-weight: 400;
+  letter-spacing: 2.76px;
+  word-wrap: break-word;
+}
+
+div#call {
+  width: 32%;
+  height: 7%;
+  left: 10%;
+  top: 57%;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-family: Alice;
+  font-weight: 400;
+  letter-spacing: 2.76px;
+  word-wrap: break-word;
+}
+
+div#callus {
+  left: 10%;
+  top: 66%;
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+
+div#callus a {
+  color: white;
+  text-decoration: none;
+}
+
+div#write {
+  width: 31%;
+  height: 6%;
+  left: 10%;
+  top: 75%;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-family: Alice;
+  font-weight: 400;
+  letter-spacing: 2.76px;
+  word-wrap: break-word;
+}
+
+div#addressInfo {
+  width: 86%;
+  height: 10%;
+  left: 10%;
+  top: 43%;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  letter-spacing: 2.30px;
+  word-wrap: break-word;
+}
+
+div#email {
+  width: 74%;
+  height: 5%;
+  left: 10%;
+  top: 84%;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 400;
+  letter-spacing: 1.84px;
+  word-wrap: break-word;
+}
+
+
+@media (max-width: 767px) {
+  .header {
+    height: 62px; /* Увеличиваем высоту для более удобного тапа */
+   }
+   .logo{
+    width: 18%;
+    height: 5rem;
+    left: 3%;
+    top: -111%;
+    position: absolute;
+   }
+   .N{
+    width: 83%;
+    height: 3.2rem;
+    left: -5%;
+    top: 80%;
+    padding: 4px;
+   }
+  .menu, .about, .contact, .otziv, .phone {
+    font-size: 7px; /* Изменяем размер шрифта для маленьких устройств */
+  }
+  img.phone1 {
+    width: 1%; 
+  left: 83%; 
+  top: 45%; /* Скрываем изображение телефона для маленьких устройств */
+  }
+
+  .map-responsive {
+    height: 354px;
+    padding-bottom: 89.12%;
+  }
+
+  .map-responsive iframe{
+    width: 105%;
+    height: 31%;
+    left: -2%;
+    top: 70%;
+    position: absolute;
+  }
+  .background {
+    width: 81%;
+    height: 41%;
+    left: 5%;
+    top: 13%;
+    padding: 18px;
+  }
+  div#contactTitle{
+  width: 60%;
+  height: 10%;
+  left: 5%;
+  top: 9%;
+  padding: 6px;
+  font-size: 28px;
+  }
+  div#address{
+  width: 77%;
+  height: 5%;
+  left: 5%;
+  top: 23%;
+  padding: 6px;
+  font-size: 14px;
+  }
+
+  div#call{
+    width: 37%;
+    top: 46%;
+    left: 5%;
+    padding: 2%;
+  }
+  div#callus {
+    height: 6%;
+    width: 40%;
+    top: 58%;
+    left: 5%;
+    padding: 1%;
+  }
+  div#write{
+    height: 8%;
+    width: 35%;
+    left: 5%;
+    top: 69%;
+    padding: 1%;
+  }
+  div#addressInfo{
+    height: 7%;
+    width: 93%;
+    top: 33%;
+    left: 5%;
+    padding: 1%;
+    font-size: 14px;
+  }
+  div#email{
+    height: 7%;
+    width: 82%;
+    top: 80%;
+    left: 5%;
+    padding: 1%;
+  }
+  .footer {
+    height: 311px;
+    width: 100%;
+    top: 3px;
+}
+  .logo2{
+  width: 32%;
+  height: 6rem;
+  left: 37%;
+  top: 64%;
+  position: absolute;
+ }
+
+ .N1{
+  width: 88%;
+  height: 4.2rem;
+  left: -23%;
+  top: 8%;
+  padding: 4px;
+ }
+
+.buttonText {
+  top: 65%;
+  left: 42%;
+  width: 12%;
+  font-size: 17px;
+  text-align: center;
+}
+
+div#privacyPolicy {
+  left: 33%;
+  top: 90%;
+  font-size: 9px;
+  padding: 1%;
+}
+
+div#workingHours{
+  left: 25%;
+  top: 110px;
+  width: 46%;
+  padding: 4px;
+  font-size: 16px;
+}
+
+div#aboutUs {
+  left: 40%;
+  top: 2%;
+  font-size: 24px;
+  padding: 1px;
+}
+
+div#uslugi {
+  left: 33%;
+  top: 28px;
+  padding: 1px;
+  font-size: 22px;
+}
+
+div#makiaj {
+  left: 29%;
+  top: 54px;
+  font-size: 12px;
+  padding: 1px;
+}
+
+div#manikur {
+  left: 27%;
+  top: 67px;
+  font-size: 12px;
+  padding: 1px;
+}
+
+div#discount {
+  left: 33%;
+  top: 164px;
+  width: max-content;
+  font-size: 15px;
+  padding: 3px;
+  text-align: center;
+}
+
+div#contactUs {
+  left: 37%;
+  top: 85px;
+  font-size: 20px;
+  padding: 1px;
+}
+
+div#year {
+  left: 42%;
+  top: 287px;
+  font-size: 10px;
+  padding: 2%;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    height: 111px; 
+  }
+  .menu, .about, .contact, .otziv, .phone {
+    font-size: 1.0vw; 
+  }
+  .logo{
+    width: 18%;
+    height: 7rem;
+    left: -2%;
+    top: 2%;
+    position: absolute;
+   }
+   .N{
+    width: 61%;
+    height: 5.2rem;
+    left: 17%;
+    top: 4%;
+    padding: 4px;
+   }
+   .map-responsive {
+    height: 392px;
+    padding-bottom: 52.12%;
+  }
+
+  .map-responsive iframe{
+    width: 65%;
+    height: 65%;
+    left: 31%;
+    top: 12%;
+    position:absolute;
+  }
+  
+  .background {
+    width: 54%;
+    height: 50%;
+    left: 5%;
+    top: 19%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.64);
+  }
+
+  div#contactTitle, div#address, div#call,div#callus, div#write, div#addressInfo, div#email{
+    left: 14%;
+  }
+  .footer {
+    height: 268px;
+    width: 100%;
+    top: -1px;
+}
+.logo2{
+  width: 32%;
+  height: 6rem;
+  left: 37%;
+  top: 64%;
+  position: absolute;
+ }
+
+ .N1{
+  width: 88%;
+  height: 4.2rem;
+  left: -23%;
+  top: 8%;
+  padding: 4px;
+ }
+
+.buttonText {
+  top: 65%;
+  left: 42%;
+  width: 12%;
+  font-size: 17px;
+  text-align: center;
+}
+
+div#privacyPolicy {
+  left: 33%;
+  top: 90%;
+  font-size: 9px;
+  padding: 1%;
+}
+
+div#workingHours{
+  left: 25%;
+  top: 110px;
+  width: 46%;
+  padding: 4px;
+  font-size: 16px;
+}
+
+div#aboutUs {
+  left: 40%;
+  top: 2%;
+  font-size: 24px;
+  padding: 1px;
+}
+
+div#uslugi {
+  left: 33%;
+  top: 28px;
+  padding: 1px;
+  font-size: 22px;
+}
+
+div#makiaj {
+  left: 29%;
+  top: 54px;
+  font-size: 12px;
+  padding: 1px;
+}
+
+div#manikur {
+  left: 27%;
+  top: 67px;
+  font-size: 12px;
+  padding: 1px;
+}
+
+div#discount {
+  left: 33%;
+  top: 164px;
+  width: max-content;
+  font-size: 15px;
+  padding: 3px;
+  text-align: center;
+}
+
+div#contactUs {
+  left: 37%;
+  top: 85px;
+  font-size: 20px;
+  padding: 1px;
+}
+
+div#year {
+  left: 42%;
+  top: 287px;
+  font-size: 10px;
+  padding: 2%;
+}
+}
+
+@media (min-width: 1025px) {
+  .header {
+    width: 100%;
+    height: 119px;
+    position: relative;
+    background: #1D1D1D;
+  }
+  .logo{
+    width: 18%;
+    height: 7rem;
+    left: -2%;
+    top: 2%;
+    position: absolute;
+   }
+   .N{
+    width: 61%;
+    height: 5.2rem;
+    left: 17%;
+    top: 4%;
+    padding: 4px;
+   }
+  .menu, .about, .contact, .otziv, .phone {
+    font-size: 1.4vw; /* Изменяем размер шрифта для маленьких устройств */
+  }
+  img.phone1 {
+    width: 1%; 
+  left: 83%; 
+  top: 45%; /* Скрываем изображение телефона для маленьких устройств */
+  }
+
+  .map-responsive {
+    height: 383px;
+    padding-bottom: 28.12%;
+  }
+
+  .map-responsive iframe{
+    width: 50%;
+    height: 73%;
+    left: 47%;
+    top: 7%;
+    position:absolute;
+  }
+  
+  .background {
+    width: 41%;
+    height: 64%;
+    left: 17%;
+    top: 11%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.64);
+  }
+
+  div#contactTitle{
+  width: 60%;
+  height: 10%;
+  left: 14%;
+  top: 5%;
+  padding: 6px;
+  font-size: 50px;
+  }
+  div#address{
+  width: 77%;
+  height: 5%;
+  left: 14%;
+  top: 21%;
+  padding: 6px;
+  font-size: 26px;
+  }
+
+  div#call{
+    width: 31%;
+    top: 40%;
+    left: 14%;
+    font-size: 26px;
+    padding: 2%;
+  }
+  div#callus {
+    height: 6%;
+    width: 35%;
+    top: 49%;
+    font-size: 18px;
+    left: 14%;
+    padding: 1%;
+  }
+  div#write{
+    height: 8%;
+    width: 30%;
+    left: 14%;
+    top: 60%;
+    font-size: 25px;
+    padding: 1%;
+  }
+  div#addressInfo{
+    height: 7%;
+    width: 84%;
+    top: 31%;
+    left: 14%;
+    padding: 1%;
+    font-size: 17px;
+  }
+  div#email{
+    height: 7%;
+    width: 72%;
+    top: 70%;
+    font-size: 17px;
+    left: 15%;
+    padding: 1%;
+  }
+  .footer {
+    height: 118px;
+    width: 100%;
+    top: 3px;
+}
+}
+
+
+
+@font-face {
+  font-family: 'Cinzel Decorative';
+  src: url('E:\наре\sart/cinzel-decorative.woff2') format('woff2'), 
+       url('E:\наре\sart/cinzel-decorative.woff') format('woff'); 
+}
+body {
+  font-family: 'Cinzel Decorative', serif;
+}
